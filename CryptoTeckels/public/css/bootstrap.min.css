@@ -611,17 +611,17 @@ progress {
 }
 
 .img-fluid-nftport {
-    max-width: 50%;
+    max-width: 20%;
     height: auto
 }
 
 .img-fluid-open {
-    max-width: 60%;
+    max-width: 30%;
     height: auto
 }
 
 .img-fluid-polygon {
-    max-width: 40%;
+    max-width: 30%;
     height: auto
 }
 

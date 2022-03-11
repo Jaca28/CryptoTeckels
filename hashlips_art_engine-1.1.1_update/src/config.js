@@ -29,6 +29,8 @@ const layerConfigurations = [{
         { name: "Dientes" },
         { name: "Cejas" },
         { name: "Ojos" },
+        { name: "Chalecos" },
+        { name: "Gafas" },
     ],
 }, ];
 
