@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "CryptoTeckels";
 const description = "CryptoTeckels Metaverse";
-const baseUri = ""; // Paste Pinata CID Here!
+const baseUri = "ipfs://QmVFWu27JQva4dnUgu1YwPSZXvYFqfyPLBKzEd6aXsrThv"; // Paste Pinata Images CID Here!
 
 const solanaMetadata = {
     symbol: "YC",
@@ -21,7 +21,7 @@ const solanaMetadata = {
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [{
-    growEditionSizeTo: 20,
+    growEditionSizeTo: 300,
     layersOrder: [
         { name: "Background" },
         { name: "Bodies" },

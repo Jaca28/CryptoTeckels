@@ -9,7 +9,7 @@ const writter = fs.createWriteStream(`${basePath}/build/json/_ipfsMetas.json`, {
 });
 writter.write("[");
 const readDir = `${basePath}/build/json`;
-let fileCount = fs.readdirSync(readDir).length;
+let fileCount = fs.readdirSync(readDir).length - 2;
 
 fs.readdirSync(readDir).forEach(file => {
     if (file === '_metadata.json' || file === '_ipfsMetas.json')
@@ -23,7 +23,7 @@ fs.readdirSync(readDir).forEach(file => {
         method: 'POST',
         headers: {
             "Content-Type": "aplication/json",
-            Authorization: '2c35862d-ab47-4440-81f6-7a9d2aa91e0f',
+            Authorization: '52547ea8-ca41-4048-b1f6-3c16a9fd5d2f',
         },
         body: jsonFile,
     };
@@ -44,4 +44,5 @@ fs.readdirSync(readDir).forEach(file => {
             console.log(`${json.name} metadata uploaded & added to _ipfsMetas.json! `);
         })
         .catch(err => console.error('error:' + err));
+
 })

@@ -26,7 +26,7 @@ forEach(file => {
     options = {
         method: 'POST',
         headers: {
-            Authorization: '2c35862d-ab47-4440-81f6-7a9d2aa91e0f',
+            Authorization: '52547ea8-ca41-4048-b1f6-3c16a9fd5d2f',
         },
         body: formData
     };

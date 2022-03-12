@@ -620,6 +620,11 @@ progress {
     height: auto
 }
 
+.img-fluid-opensea {
+    max-width: 90%;
+    height: auto
+}
+
 .img-fluid-polygon {
     max-width: 30%;
     height: auto
