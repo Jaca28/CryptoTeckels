@@ -13,12 +13,13 @@ ul {
 
 a {
     text-decoration: none;
-    outline: none
+    outline: none;
+    color: #ffffff;
 }
 
 body a:hover,
 body a:focus {
-    color: initial;
+    color: #ffffff;
     text-decoration: none
 }
 
@@ -481,8 +482,8 @@ button.btn:focus {
 }
 
 header {
-    padding: 35px 0 0;
-    z-index: 1;
+    padding: 0px 0 0;
+    z-index: 0;
     position: relative;
 }
 
@@ -892,7 +893,7 @@ footer .col-xl-8 {
 }
 
 .footlogo img {
-    width: 100px;
+    width: 150px;
 }
 
 .footlogocntSec p {

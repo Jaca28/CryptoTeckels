@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Crypto Teckels";
-const description = "Crypto Teckels Metaverse";
-const baseUri = "ipfs://QmYWHkVFedxx632DCD4wjGir4zuiKjEkZDGaLguk3Frm1D"; // Paste Pinata CID Here!
+const namePrefix = "CryptoTeckels";
+const description = "CryptoTeckels Metaverse";
+const baseUri = ""; // Paste Pinata CID Here!
 
 const solanaMetadata = {
     symbol: "YC",
@@ -30,7 +30,7 @@ const layerConfigurations = [{
         { name: "Eyebrows" },
         { name: "Eyes" },
         { name: "Vests" },
-        { name: "Googles" },
+        { name: "Goggles" },
     ],
 }, ];
 
