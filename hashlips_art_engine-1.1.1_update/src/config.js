@@ -24,13 +24,13 @@ const layerConfigurations = [{
     growEditionSizeTo: 20,
     layersOrder: [
         { name: "Background" },
-        { name: "Cuerpos" },
-        { name: "Gorras" },
-        { name: "Dientes" },
-        { name: "Cejas" },
-        { name: "Ojos" },
-        { name: "Chalecos" },
-        { name: "Gafas" },
+        { name: "Bodies" },
+        { name: "Teeth" },
+        { name: "Hats" },
+        { name: "Eyebrows" },
+        { name: "Eyes" },
+        { name: "Vests" },
+        { name: "Googles" },
     ],
 }, ];
 
